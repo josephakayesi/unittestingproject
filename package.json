@@ -1,0 +1,14 @@
+{
+  "name": "unittestingproject",
+  "version": "1.0.0",
+  "description": "A unit testing sample project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose || true"
+  },
+  "author": "Joseph Akayesi",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.7.1"
+  }
+}
