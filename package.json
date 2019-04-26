@@ -6,7 +6,6 @@
   "scripts": {
     "test": "jest --verbose || true",
     "start": "node",
-    "install": "echo \"Should install app\" && exit 1"
   },
   "author": "Joseph Akayesi",
   "license": "MIT",
