@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 const { calculateMean, sayHello, isValid } = require('../index')
+=======
+const { calculateMean, sayHello, } = require('../index')
+
+>>>>>>> 317a375015717a6d7e550605861c454e9e2cc339
 
 describe('calculateMean', () => {
     test('should return a number', () => {
@@ -11,10 +16,18 @@ describe('calculateMean', () => {
         expect(mean).toBe(3.5)
     })
 
+<<<<<<< HEAD
     test('should return null', () => {
         const mean = calculateMean([])
         expect(mean).toBe(null)
     })
+=======
+    test('should be null', () => {
+        const mean = calculateMean([])
+        expect(mean).toBe(null)
+    })
+
+>>>>>>> 317a375015717a6d7e550605861c454e9e2cc339
 })
 
 describe('sayHello', () => {
@@ -27,6 +40,10 @@ describe('sayHello', () => {
         const text = sayHello()
         expect(typeof text).toBe('string')
     })
+<<<<<<< HEAD
+=======
+
+>>>>>>> 317a375015717a6d7e550605861c454e9e2cc339
 })
 
 describe('isValid', () => {
@@ -44,5 +61,9 @@ describe('isValid', () => {
         const boolean = isValid('Jest')
         expect(typeof boolean).toBe('boolean')
     })
+<<<<<<< HEAD
 })
 
+=======
+})
+>>>>>>> 317a375015717a6d7e550605861c454e9e2cc339
